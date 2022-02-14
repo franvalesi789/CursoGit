@@ -6,4 +6,8 @@ public class FormularioCinco extends JFrame implements ActionListener{
   private JTextField textfield1;
   private JLabel label1;
   private JButton boton1;
+  
+  public FormularioCinco(){
+    setLayout(null);
+  }
 }  
