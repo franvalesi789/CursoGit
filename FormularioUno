@@ -9,5 +9,9 @@ public class FormularioCinco extends JFrame implements ActionListener{
   
   public FormularioCinco(){
     setLayout(null);
+
+    label1 = new JLabel("Usuario:");
+    label1.setBounds(10,10,100,30);
+    add(label1);
   }
 }  
